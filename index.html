@@ -7,25 +7,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="facts.js"></script>
   </head>
-
+  
   <body>
-    <img class="logo" src="logo.png" />
-      
-    <h1>HistoryBytes</h1>
-    <div>
+    <header> 
+      <img class="logo" src="logo.png" />
+      <h1>HistoryBytes</h1>
+    </header>
+    <div id="content"> 
       <div id="fact">
-        <div id="generated-fact">
+        <div class="row">
+          <button onclick="newFact()" class="button" id="new-fact">Click for a new fact!</button>
+          <div id="generated-fact">
+          </div>
         </div>
-        <div id="more-info">
-          <div id="date"></div>
-          <div id="period"></div>
-          <div id="country"></div>
-          <div id="tags"></div>
-          <div id="external-website"></div>
+        <div class="row">
+
+          <button onclick="showInfo()" id="learn-more" class="button">Learn More</button>
+          <div id="more-info" class="hide">
+            <div id="date"></div>
+            <div id="period"></div>
+            <div id="country"></div>
+            <div id="tags"></div>
+            <div id="external-website"></div>
+          </div>
         </div>
       </div>
-      <button onclick="showInfo()" id="learn-more" class="button">Learn More</button>
-      <button onclick="newFact()" class="button" id="new-fact">Click for a new fact!</button>
     </div>
     <footer>
       <p>Created by George Vizitiu & Leo Gilmour</p>
