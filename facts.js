@@ -29,7 +29,7 @@ function runFacts()
         
 };  
 function newFact(){
-    $("#more-info").hide();
+    $("#more-info").addClass("hide");
           runFacts();
 }
 function appendFact(afact){
@@ -67,7 +67,7 @@ function appendFact(afact){
 function showInfo()
 {
 console.log(currentFact)
-$("#more-info").toggle();
+$("#more-info").toggleClass("hide");
 }
 
 
