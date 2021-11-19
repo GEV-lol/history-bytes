@@ -5,7 +5,8 @@ const facts = [
     {"fact":"The infamous King Henry VIII was coronated in 1509!" , "tags":["Tudor Era", "England"], "date":"1509 CE", "period":["Tudor Era"],"country":["England"],"url":"https://en.wikipedia.org/wiki/Henry_VIII"},
     {"fact":"The last Holy Roman Emperor reigned until 1806!" , "tags":["Napoleonic Era", "Germany"], "date":"1806 CE", "period":["Napoleonic Era"],"country":["Germany"],"url":"https://en.wikipedia.org/wiki/Francis_II,_Holy_Roman_Emperor"},
     {"fact":"The Chinese Civil War lasted from 1927-1949, but a peace treaty was never signed!" , "tags":["Interwar Period", "China", "WW2", "Cold War"], "date":"1927-1948 CE", "period":["Cold War"],"country":["China"],"url":"https://en.wikipedia.org/wiki/Chinese_Civil_War"},
-    {"fact":"Ethiopia and Liberia were the only African nations to not be colonized by European countries!" , "tags":["Colonial Africa", "Ethiopia", "Liberia"], "date":"1884-1914 CE", "period":["Colonial Africa"],"country":["Ethiopia/Liberia"],"url":"https://en.wikipedia.org/wiki/Scramble_for_Africa"}
+    {"fact":"Ethiopia and Liberia were the only African nations to not be colonized by European countries!" , "tags":["Colonial Africa", "Ethiopia", "Liberia"], "date":"1884-1914 CE", "period":["Colonial Africa"],"country":["Ethiopia/Liberia"],"url":"https://en.wikipedia.org/wiki/Scramble_for_Africa"},
+    {"fact":"Germany was first united in 1871!" , "tags":["1800's", "Germany", "Prussia"], "date":"1860's-1871 CE", "period":["1800's"],"country":["Germany"],"url":"https://en.wikipedia.org/wiki/Unification_of_Germany"}
 ]
 var currentFact=0
 function runFacts()
